@@ -1,0 +1,140 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	font-size: 10px;
+}
+
+html, body {
+	height: 100%;
+}
+body {
+	background: #151515;
+	opacity: 100%;
+	font-family: "lora-regular", serif;
+	font-size: 1.7rem;
+	line-height: 3rem;
+	color: #6e6e6e;
+}
+
+
+a.button {
+	display: inline-block;
+	font-family: "poppins-bold", sans-serif;
+	font-size: 1.4rem;
+	text-transform: uppercase;
+	height: 5.4rem;
+	background: none;
+	text-decoration: none;
+	cursor: pointer;
+	text-align: center;
+	border: 3px solid #313131;
+}
+
+a.button:hover {
+	border: 3px solid #FF0077;
+	color: #FF0077;
+}
+
+#intro {
+	background: #151515 url(../images/intro-bg.jpg) no-repeat center bottom;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	display: table;
+	position: relative;
+	text-align: center;
+}
+
+.intro-content {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.intro-content h1 {
+	color: #FFFFFF;
+	font-family: "poppins-medium", sans-serif;
+	font-size: 8.4rem;
+	line-height: 1.071;
+	max-width: 900px;
+	margin-top: 0;
+	margin-bottom: .6rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+.intro-content h5 {
+	color: #cc005f;
+	font-family: "poppins-bold", sans-serif;
+	font-size: 2.3rem;
+	line-height: 1.565;
+	margin-bottom: 0;
+	text-transform: uppercase;
+	letter-spacing: .3rem;
+}
+
+.intro-content .intro-position span::after {
+	content: "|";
+	text-align: center;
+	display: inline-block;
+	padding: 0 8px 0 14px;
+	color: rgba(255, 255, 255, 0.3);
+}
+.intro-content .intro-position {
+	font-family: "lora-regular", serif;
+	font-size: 1.7rem;
+	line-height: 2.4rem;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+	color: #FFFFFF;
+}
+.intro-content .intro-position span {
+	display: inline-block;
+}
+
+.intro-content .button {
+	color: #FFFFFF;
+	border-color: rgba(255, 255, 255, 0.3);
+	height: 6rem;
+	line-height: 5.4rem;
+	padding: 0 3.5rem 0 3rem;
+	margin-top: .6rem;
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	letter-spacing: .25rem;
+}
+
+.intro-social {
+	display: block;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: 7.2rem;
+	font-size: 3.3rem;
+	margin: 0;
+	padding: 0;
+}
+
+.intro-social {
+	display: block;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: 7.2rem;
+	font-size: 3.3rem;
+	margin: 0;
+	padding: 0;
+}
+.intro-social li {
+	display: inline-block;
+	margin: 0 20px;
+	padding: 0;
+}
+.intro-social li a, .intro-social li a:visited {
+	color: #FFFFFF;
+}
+.intro-social li a:hover{
+	color: #cc005f;
+}
