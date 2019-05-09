@@ -39,7 +39,7 @@ a.button:hover {
 }
 
 #intro {
-	background: #151515 url('https://github.com/hanaa98/codeAcademy-portfolio/blob/master/intro-bg.jpg') no-repeat center bottom;
+	background: #151515 url('https://raw.githubusercontent.com/hanaa98/codeAcademy-portfolio/master/intro-bg.jpg') no-repeat center bottom;
 	background-size: cover;
 	width: 100%;
 	height: 100%;
